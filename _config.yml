@@ -2,3 +2,4 @@ theme: jekyll-theme-minimal
 paginate: 5
 gems:
   - jekyll-paginate
+author: ぴょんぴょん

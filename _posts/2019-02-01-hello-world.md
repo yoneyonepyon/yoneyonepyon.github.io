@@ -1,6 +1,8 @@
 ---
 layout: post
-title: テスト投稿
+title: 授業内容・復習
+tags:
+  - Java
 ---
 
 これはテスト投稿です。
