@@ -7,6 +7,8 @@ tags:
 
 テスト投稿も兼ねて昨日つくったプログラムについて簡単にまとめます。
 
+## 遠足のおやつ
+
 [Oyatu.java](https://github.com/yoneyonepyon/rensyu/blob/master/Oyatu.java)
 
 6 通りのお菓子を選んで、予算の範囲で満足度が一番高いものを選ぶというものです。
@@ -44,3 +46,13 @@ if (balance <= 300 && happiness == max_happiness) {
 同じ満足度の組み合わせのときに文字列を連結するようにしています。
 
 これはそれ以前の問題であった 10 進数から 2 進数へ変換する方法の応用です。
+
+## 魔法陣
+
+[Mahoujin.java](https://github.com/yoneyonepyon/rensyu/blob/master/Mahoujin.java)
+
+魔法陣の問題も考え方を変えたらうまく解けました。
+
+この問題は単純な穴埋め算なので、べき乗の計算を使えば唯一の組み合わせは簡単に探し出せました。
+
+こうして考えたら for 文でも作れるようになるかもしれないですね。
