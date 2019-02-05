@@ -11,7 +11,7 @@ public class Challenge3 {
 			System.out.println("残り" + countdown + "秒...");			
 		}
 
-		System.out.println("正常終了した");
+		System.out.println("ファイナル・カウントダウン!");
 	}
 
 }
