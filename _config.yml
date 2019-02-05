@@ -5,3 +5,5 @@ paginate: 5
 gems:
   - jekyll-paginate
 author: ぴょんぴょん
+exclude:
+  - challenges
