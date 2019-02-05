@@ -22,12 +22,12 @@ public class Method_NowCalendarDisp {
 	public static void main(String[] args) {
 		System.out.println("2019年2月");
 		Calendar cal = Calendar.getInstance(); // 実行した日のカレンダーを取得
-    int year = cal.get(Calendar.YEAR);
-    int month = cal.get(Calendar.MONTH);
+		int year = cal.get(Calendar.YEAR);
+		int month = cal.get(Calendar.MONTH);
 		cal.set(year, month, 1); // その月の1日に変更する
 		int firstday = cal.get(Calendar.DAY_OF_WEEK) - 1; // Javaは月曜日が0なので-1する
 		int lastday = cal.getActualMaximum(Calendar.DATE); // 月末の取得
-    calendarDisp(firstday, lastday);
+		calendarDisp(firstday, lastday);
 	}
 
 }
