@@ -12,8 +12,6 @@ tags:
 
 2019 年 2 月の場合は 1 日が金曜日で、月末が 28 日なので`calendarDisp(5, 28)`を受け取ればカレンダーが出力できます。
 
-**注:** この問題では日曜開始のカレンダーを使用しているため、日曜日が`0`で土曜日が`6`です。
-
 ```java
 import java.util.Calendar;
 
@@ -25,7 +23,7 @@ public class Method_NowCalendarDisp {
 		int year = cal.get(Calendar.YEAR);
 		int month = cal.get(Calendar.MONTH);
 		cal.set(year, month, 1); // その月の1日に変更する
-		int firstday = cal.get(Calendar.DAY_OF_WEEK) - 1; // Javaは月曜日が0なので-1する
+		int firstday = cal.get(Calendar.DAY_OF_WEEK);
 		int lastday = cal.getActualMaximum(Calendar.DATE); // 月末の取得
 		calendarDisp(firstday, lastday);
 	}
