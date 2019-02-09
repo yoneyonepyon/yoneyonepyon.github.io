@@ -13,5 +13,16 @@ public class Challenge4 {
 		System.out.println("9 = " + gomasioSandal(9)); // サンダル
 		System.out.println("10 = " + gomasioSandal(10)); // ごましお
 	}
+	
+	// 数値も文字列として返すのがポイントです
+	public static String gomasioSandal(int num) {
+		if (num % 3 == 0) {
+			return "サンダル";
+		} else if (num % 5 == 0) {
+			return "ごましお";
+		} else {
+			return "" + num;
+		}
+	}
 
 }

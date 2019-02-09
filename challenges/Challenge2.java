@@ -8,16 +8,18 @@ public class Challenge2 {
 		int gomasio = 4;
 		int rocket = 5;
 		
-		for (int i = ; i < ; i++) {
-			if () {
+		// i<6 または i<= 5 でも正解
+		// i<5 の時は i+1 == carrotでも正解
+		for (int i = 1; i < 6; i++) {
+			if (i == carrot) {
 				System.out.println("にんじん");
-			} else if () {
+			} else if (i == sandal) {
 				System.out.println("サンダル");
-			} else if () {
+			} else if (i == yacht) {
 				System.out.println("ヨット");			
-			} else if () {
+			} else if (i == gomasio) {
 				System.out.println("ごましお");			
-			} else if () {
+			} else if (i == rocket) {
 				System.out.println("ロケット");			
 			}	
 		}

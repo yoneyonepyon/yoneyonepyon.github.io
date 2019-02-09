@@ -43,6 +43,8 @@ public class Challenge1 {
 }
 ```
 
+[解答](https://github.com/yoneyonepyon/yoneyonepyon.github.io/blob/master/challenges/Challenge1.java)
+
 **2 問目** for 文の問題。1 問目の問題を for 文で出力するプログラムに変更してください
 
 ```java
@@ -73,6 +75,8 @@ public class Challenge2 {
 }
 ```
 
+[解答](https://github.com/yoneyonepyon/yoneyonepyon.github.io/blob/master/challenges/Challenge2.java)
+
 **3 問目** while 文の問題。プログラム実行後にカウントダウンをした後に`ファイナル・カウントダウン!`を出力するように修正してください
 
 ```java
@@ -93,6 +97,8 @@ public class Challenge3 {
 
 }
 ```
+
+[解答](https://github.com/yoneyonepyon/yoneyonepyon.github.io/blob/master/challenges/Challenge3.java)
 
 **4 問目** メソッドの問題。与えられた数値が 3 の倍数の場合は`サンダル`、5 の倍数の場合は`ごましお`、それ以外はその数値を出力するメソッド`gomasioSandal`を用意してください
 
@@ -115,7 +121,9 @@ public class Challenge4 {
 }
 ```
 
-*注:* 3と5の両方で割り切れる場合はどちらかがでていればOKとします。
+_注:_ 3 と 5 の両方で割り切れる場合はどちらかがでていれば OK とします。
+
+[解答](https://github.com/yoneyonepyon/yoneyonepyon.github.io/blob/master/challenges/Challenge4.java)
 
 **5 問目** 配列の問題。配列`items`を用意して 1 行ごとに`にんじん` `サンダル` `ヨット` `ごましお` `ロケット`を出力してください(問題 1 と問題 2 の出力と同じになるはずです)
 
@@ -132,4 +140,4 @@ public class Challenge5 {
 }
 ```
 
-次の問題、解答は気が向いたときに出します。
+[解答](https://github.com/yoneyonepyon/yoneyonepyon.github.io/blob/master/challenges/Challenge5.java)

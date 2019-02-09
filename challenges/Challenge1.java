@@ -12,15 +12,15 @@ public class Challenge1 {
 		int gomasio = 4;
 		int rocket = 5;
 		
-		if () {
+		if (num == carrot) {
 			System.out.println("にんじん");
-		} else if () {
+		} else if (num == sandal) {
 			System.out.println("サンダル");
-		} else if () {
+		} else if (num == yacht) {
 			System.out.println("ヨット");			
-		} else if () {
+		} else if (num == gomasio) {
 			System.out.println("ごましお");			
-		} else if () {
+		} else if (num == rocket) {
 			System.out.println("ロケット");			
 		}
 		
