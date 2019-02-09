@@ -26,9 +26,9 @@ tags:
 public class Card {
 
   // ヒント: ここは後から別ファイルで呼び出すのでpublicにしてください
-	public Card() {
+  public Card() {
     // ヒント: プリント参照
-	}
+  }
 
   // ヒント: ここは後から別ファイルで呼び出すのでpublicにしてください
   public void showName() {
@@ -54,9 +54,9 @@ _注意:_ メソッドはすべて`public`にしても構いません
 ```java
 public class Game {
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
     // ヒント: 二重のfor文を使ってCardを初期化すると簡単です
-	}
+  }
 
 }
 ```
@@ -71,14 +71,14 @@ public class Game {
 public class Deck {
 
   // ヒント: ここは後から別ファイルで呼び出すのでpublicにしてください
-	public Deck() {
-		buildCards();
-	}
+  public Deck() {
+    buildCards();
+  }
 
   // 以下のメソッドはわかりやすい名前に変えても構いません
-	private void buildCards() {
+  private void buildCards() {
     // ヒント: showNameを配列に置き換えて、初期化した配列に代入します
-	}
+  }
 
 }
 ```
@@ -91,13 +91,13 @@ public class Deck {
 public class Deck {
 
   // ここで追加するシャッフルの方法はネットで調べるか、独自に実装してください
-	public void shuffle() {
+  public void shuffle() {
     // 自力で実装するときのヒント
     // 1. 乱数で入れ替えるカードaとカードbのインデックスを取得する
     // 2. 一時変数tmp等を用意するなどしてカードaを代入する
     // 3. 配列のカードaをカードbで代入する
     // 4. 配列のカードbを一時変数で代入する
-	}
+  }
 
 }
 ```
@@ -107,13 +107,13 @@ public class Deck {
 ```java
 public class Deck {
 
-	public Card drawCard() {
+  public Card drawCard() {
     // ヒント: drawCardを1度だけ実行します
-	}
+  }
 
-	public Card[] drawCard(int n) {
+  public Card[] drawCard(int n) {
     // ヒント: 引いた分のカードを初期化、引数の分を追加した配列を初期化、引かれた分のカードの配列を初期化して最後に代入する
-	}
+  }
 
 }
 ```
@@ -123,9 +123,9 @@ public class Deck {
 ```java
 public class Deck {
 
-	public void showHand() {
+  public void showHand() {
     // ヒント: CardのshowNameを一枚ずつ実行します
-	}
+  }
 
 }
 ```
@@ -136,9 +136,9 @@ public class Deck {
 ```java
 public class Deck {
 
-	public void calcHand() {
+  public void calcHand() {
     // ヒント: Cardクラスを改造して11が21よりもオーバーしたときは1のときの値を返すようにしてください
-	}
+  }
 
 }
 ```
