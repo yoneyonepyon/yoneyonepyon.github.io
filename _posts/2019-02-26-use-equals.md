@@ -1,3 +1,11 @@
+---
+layout: post
+title: equalsで文字列を比較できる
+tags:
+  - Java
+  - メソッド
+---
+
 例えば以下のようなクラスがあるとします。
 
 ```java
